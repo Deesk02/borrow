@@ -116,7 +116,7 @@
           circlesArray.splice(i, 1);
           console.log("oof!");
           let pop = new Audio('oof.mp3');
-          oof.play();
+          pop.play();
           return true;
         }
       }
@@ -132,7 +132,7 @@
       let dy = (Math.random() - 0.5) * 4;
       circlesArray.push(new Circle(x, y, radius, dx, dy));
 
-      let snap = new Audio('snap.mp3');
+      let snap = new Audio('oof.mp3');
       snap.play();
     }
 
